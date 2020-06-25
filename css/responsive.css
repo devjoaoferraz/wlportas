@@ -84,3 +84,21 @@
 	}
 	
 }
+
+@media only screen and (max-width: 480px) { 
+	.featured-list{
+		width:100%;
+		margin:auto;
+	}
+	
+	.featured-list #grid {
+		width: 100%;
+	}
+	
+	.featured-list #grid .thumb {
+		float: center;
+		height: auto;
+		margin: 0;
+		width: 90%;
+	}
+}
