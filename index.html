@@ -40,28 +40,39 @@
 				<div class="navbar-wrapper">
 					<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 						<div class="container">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle Navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								
-								<a href="#" class="navbar-brand"><img src="img/logoHorizontal.png" alt="Logo" height=40 /></a>							
+							<div class="col-sm-2">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<span class="sr-only">Toggle Navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									
+									<a href="index.html"><img src="img/logoHorizontal.png" alt="Logo" height=60 /></a>
+								</div>
 							</div>
-							
-							<div class="navbar-collapse collapse">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">Empresa</a></li>
-									<li><a href="product.html">Produtos</a></li>
-									<li><a href="#feature-work">Portfólio</a></li>
-									<li><a href="#blog">Plantão 24h</a></li>
-									<li><a href="contact.html">Contato</a></li>
-								</ul>
+							<div class="col-sm-7">
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="about.html">Empresa</a></li>
+										<li><a href="product.html">Produtos</a></li>
+										<li><a href="portfolio.html">Portfólio</a></li>
+										<li><a href="plantao.html">Plantão 24h</a></li>
+										<li><a href="contact.html">Contato</a></li>
+									</ul>
+								</div>
 							</div>
-							
+							<div class="col-sm-3">
+								<div class="social">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -79,13 +90,13 @@
 				 
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="img/slide1.png" alt="Sider Big Image">
+							<img class="carousel-img" src="img/slide1.png" alt="Sider Big Image">
 						</div>
 						<div class="item">
-							<img src="img/slide3.png" alt="Sider Big Image">
+							<img class="carousel-img" src="img/slide3.png" alt="Sider Big Image">
 						</div>
 						<div class="item">
-							<img src="img/slide5.png" alt="Sider Big Image">
+							<img class="carousel-img" src="img/slide5.png" alt="Sider Big Image">
 						</div>
 					</div>
 				</div>
@@ -95,121 +106,54 @@
 		</header>
 		<!-- Header End -->
 		
-		
-
-		<!-- Featured Work -->
-		
-		<section id="feature-work" class="portfolio-padding">
+		<div class="categories">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<div class="title">
-							<br />
-							<h3>Nossos Clientes</h3>
+					<div class="col-lg-12">
+						<div class="category">
+							<ul>
+								<div class="thumb-rollover">
+									<div class="project-title">
+										<h4>Cerca Elétrica</h4>
+										<h5>Category: Segurança</h5>
+									</div>
+								</div>
+								<li><a href="#"><img src="./img/thumb/cerca.jpg" width="150"/></a></li>
+								<li><a href="#"><img src="./img/thumb/circuito.jpg" width="150"/></a></li>
+								<li><a href="#"><img src="./img/thumb/fechadura.jpg" width="150"/></a></li>
+								<li><a href="#"><img src="./img/thumb/interfonia.jpg" width="150"/></a></li>
+								<li><a href="#"><img src="./img/thumb/serralheria.jpg" width="150"/></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			
-			<div class="featured-list">
-				<div id="grid" class="clearfix">
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/kley.png" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-								<h4>Kley Hertz</h4>
-								<h5>Category: Segurança</h5>
-							</div>
-						</div>
-						
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/dmae.png" alt="Feature Image" />
-						</a>
-						<div class="thumb-rollover">
-							<div class="project-title">
-								<h4>DMAE</h4>
-								<h5>Category: Segurança</h5>
-							</div>
-						</div>
-					</div>
-					
-					<div class="thumb">
-						<a href="#">
-							<img src="img/renner.png" alt="Feature Image" />
-						</a>
-						
-						<div class="thumb-rollover">
-							<div class="project-title">
-								<h4>Renner</h4>
-								<h5>Category: Segurança</h5>
-							</div>
-						</div>
-					</div>
-					
-			
-					
-				</div>
-			</div>
-			
-			
-		</section>
+		</div>
+		<hr />
 		
-		<!-- Featured Work -->
-					
-
-		
-		
-		<!-- From the Blog-->
-		
-		<section id="blog" class="site-padding">
+		<div class="categories">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<div class="title">
-							<h3></h3>
+					<div class="col-lg-12">
+						<div class="category">
+							<ul>
+								<li><b>Siga-nos nas redes</b></li>
+								<li>Conheça o mundo digital da WL</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
-
-					<div class="col-sm-6">
-						<div class="about-text wow fadeInRight">
-							<h3>Plantão <span>24h</span></h3>
-							<p style="text-align:justify; text-indent:15px">
-								O plantão 24h se trata de um atendimento exclusivo e personalizado onde um técnico especializado fica a disposição para atender em qualquer dia e horário. Para todo cliente que necessita de manutenção periódica e cuidados fora do horário comercial, efetuamos uma análise dos equipamentos e oferecemos esse serviço através de um contrato de manutenção integral, com valor mensal conforme o tipo e a quantidade de equipamentos. Clientes com contrato de manutenção possuem revisão mensal preventiva e desconto nos demais serviços. A manutenção preventiva é a melhor maneira de economizar, por isso invista nesse serviço.
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="about-image wow fadeInRight">
-							<img src="img/24h.png" alt="About Image" />
-						</div>
+					<div class="category">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
-		
-		<!-- From the Blog-->
-		
-		
-		
-		<!-- Contact -->
-		<section id="contact-us">
-	
-			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.958954712053!2d-51.168885185202214!3d-30.00933493660425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519776fd3e0fd13%3A0xb24e099ca0d82d2a!2sAv.%20Carneiro%20da%20Fontoura%2C%20276%20-%20Passo%20d&#39;Areia%2C%20Porto%20Alegre%20-%20RS%2C%2091040-170!5e0!3m2!1spt-PT!2sbr!4v1582551923344!5m2!1spt-PT!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-			</div>
-
-		</section>		
-		<!-- Contact -->
+		</div>
 		
 		
 		<!-- footer -->
@@ -221,63 +165,60 @@
 					<!-- Single Footer -->
 					<div class="col-sm-3">
 						<div class="single-footer">
-							<div class="footer-logo">
-								<img src="img/logoHorizontal.png" alt="Footer Logo" height="50" />
-								<p>Nós somos a WL Portas Automáticas como parte do grupo IMEEL com mais de 39 anos de experiência no mercado, com sua filial há mais de 17 anos na zona norte para melhor atender a demanda na região, e nesse ano de 2020 demos seguimento as atividades com mesma diretoria e funcionários mas com logomarca nova e muitas inovações.</p>
+							<li><h4>Segmentos</h4></li>
+							<li>Para sua casa</li>
+							<li>Para empresas</li>
+							<li>Profissionais</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+
+					<!-- Single Footer -->
+					<div class="col-sm-3">
+						<div class="single-footer">
+							<li><h4>Institucional</h4></li>
+							<li>Empresa</li>
+							<li>Produtos</li>
+							<li>Portfólio</li>
+							<li>Plantão 24h</li>
+							<li>Contato</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+
+					<!-- Single Footer -->
+					<div class="col-sm-3">
+						<div class="single-footer">
+							<li><h4>Produtos</h4></li>
+							<li>Cerca Elétrica</li>
+							<li>Circuito Fechado TV</li>
+							<li>Fechadura Eletroímã</li>
+							<li>Interfonia</li>
+							<li>Serralheria</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+					
+					<!-- Single Footer -->
+						<div class="col-sm-3">
+							<div class="single-footer">
+								<h4>NEWSLETTER</h4>
+								<p>Cadastre-se para receber novidades e notícias WL em seu e-mail</p>
+												
+								<form action="">
+									<div class="form-group">
+										<input type="name" class="form-control my-form" id="Name" placeholder="Digite seu nome completo">
+										<input type="email" class="form-control my-form" id="Email" placeholder="Digite seu e-mail">
+									</div>
+									<div class="form-group">
+										<button class="btn btn-subscribe">Inscreva-se</button>
+									</div>
+								</form>
+												
 							</div>
 						</div>
-					</div>
 					<!-- Single Footer -->
-					
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Entre Em Contato</h4>
-							<p>Av Carneiro Fontoura 276, Passo D'Areia <br />
-							+55 (51) 3341.5066 <br />
-							atendimento@wlportasautomaticas.com.br <br />
-							(01) 800 854 633</p>
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Inscreva-se</h4>
-							<p>Digite seu endereço de e-mail para assinar nossas Newsletters mensais</p>
-							
-							<form action="">
-								<div class="form-group">
-									<input type="email" class="form-control my-form" id="exampleInputEmail1" placeholder="Digite seu e-mail">
-								</div>
-								<div class="form-group">
-									<button class="btn btn-subscribe">Inscreva-se</button>
-								</div>
-							</form>
-							
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Projetos Recentes</h4>
-							<ul class="projects">
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-							</ul>
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
+			
 				</div>
 			</div>
 			
@@ -290,27 +231,6 @@
 						<div class="col-sm-4">
 							<div class="copy-text">
 								<p>All Rights Reserved | Copyright 2020 © Alfa Software</p>
-							</div>
-						</div>
-						<div class="col-sm-5">
-							<div class="footer-menu pull-right">
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">Empresa</a></li>
-									<li><a href="product.html">Produtos</a></li>
-									<li><a href="#feature-work">Portfólio</a></li>
-									<li><a href="contact.html">Contato</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
 							</div>
 						</div>
 					</div>

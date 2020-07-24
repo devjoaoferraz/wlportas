@@ -1,10 +1,52 @@
+/* Medium Layout: 1920px. */
+@media only screen and (min-width: 1800px) and (max-width: 2080px) { 
+
+
+	.validateform {
+		width: 130%;
+		margin-left: -140px;
+	}
+
+	#plantao1 {
+		width: 100%;
+		margin-left: 250px;
+	}
+
+	.main-menu {
+		width: 120%;
+	}
+    
+}
+
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
+  .slider {
+		width: 100%;
+	}
+
+	.site-padding{
+		width: 100%;
+	}
+
+	.validateform {
+		width: 100%;
+	}
+
+	#plantao1 {
+		width: 100%;
+	}
     
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.slider {
+		width: 100%;
+	}
+
+	.site-padding{
+		width: 100%;
+	}
+
  .featured-list #grid .thumb {
 	  width: 50%;
 	}

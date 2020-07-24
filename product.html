@@ -32,36 +32,44 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
-		<!-- Header Start -->
-		<header id="home">
-			
 			<!-- Main Menu Start -->
 			<div class="main-menu">
 				<div class="navbar-wrapper">
 					<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 						<div class="container">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle Navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								
-								<a href="#" class="navbar-brand"><img src="img/logoHorizontal.png" alt="Logo" height=40 /></a>							
+							<div class="col-sm-2">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<span class="sr-only">Toggle Navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									
+									<a href="index.html"><img src="img/logoHorizontal.png" alt="Logo" height=60 /></a>
+								</div>
 							</div>
-							
-							<div class="navbar-collapse collapse">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">Empresa</a></li>
-									<li><a href="product.html">Produtos</a></li>
-									<li><a href="index.html#feature-work">Portfólio</a></li>
-									<li><a href="index.html#blog">Plantão 24h</a></li>
-									<li><a href="contact.html">Contato</a></li>
-								</ul>
+							<div class="col-sm-7">
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="about.html">Empresa</a></li>
+										<li><a href="product.html">Produtos</a></li>
+										<li><a href="portfolio.html">Portfólio</a></li>
+										<li><a href="plantao.html">Plantão 24h</a></li>
+										<li><a href="contact.html">Contato</a></li>
+									</ul>
+								</div>
 							</div>
-							
+							<div class="col-sm-3">
+								<div class="social">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -70,7 +78,7 @@
 			
 			<!-- Sider Start -->
 			<div class="slider">
-				<img src="img/banner.png" alt="Sider Big Image">
+				<img class="carousel-img" src="img/banner.png" alt="Sider Big Image">
 			</div>
 			<!-- Sider End -->
 			
@@ -159,6 +167,29 @@
 		
 		<!-- Feature Section -->
 	
+		<div class="categories">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="category">
+							<ul>
+								<li><b>Siga-nos nas redes</b></li>
+								<li>Conheça o mundo digital da WL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="category">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- footer -->
 		
@@ -169,63 +200,60 @@
 					<!-- Single Footer -->
 					<div class="col-sm-3">
 						<div class="single-footer">
-							<div class="footer-logo">
-								<img src="img/logoHorizontal.png" alt="Footer Logo" height="50" />
-								<p>Nós somos a WL Portas Automáticas como parte do grupo IMEEL com mais de 39 anos de experiência no mercado, com sua filial há mais de 17 anos na zona norte para melhor atender a demanda na região, e nesse ano de 2020 demos seguimento as atividades com mesma diretoria e funcionários mas com logomarca nova e muitas inovações.</p>
+							<li><h4>Segmentos</h4></li>
+							<li>Para sua casa</li>
+							<li>Para empresas</li>
+							<li>Profissionais</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+
+					<!-- Single Footer -->
+					<div class="col-sm-3">
+						<div class="single-footer">
+							<li><h4>Institucional</h4></li>
+							<li>Empresa</li>
+							<li>Produtos</li>
+							<li>Portfólio</li>
+							<li>Plantão 24h</li>
+							<li>Contato</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+
+					<!-- Single Footer -->
+					<div class="col-sm-3">
+						<div class="single-footer">
+							<li><h4>Produtos</h4></li>
+							<li>Cerca Elétrica</li>
+							<li>Circuito Fechado TV</li>
+							<li>Fechadura Eletroímã</li>
+							<li>Interfonia</li>
+							<li>Serralheria</li>
+						</div>
+					</div>
+					<!-- Single Footer -->
+					
+					<!-- Single Footer -->
+						<div class="col-sm-3">
+							<div class="single-footer">
+								<h4>NEWSLETTER</h4>
+								<p>Cadastre-se para receber novidades e notícias WL em seu e-mail</p>
+												
+								<form action="">
+									<div class="form-group">
+										<input type="name" class="form-control my-form" id="Name" placeholder="Digite seu nome completo">
+										<input type="email" class="form-control my-form" id="Email" placeholder="Digite seu e-mail">
+									</div>
+									<div class="form-group">
+										<button class="btn btn-subscribe">Inscreva-se</button>
+									</div>
+								</form>
+												
 							</div>
 						</div>
-					</div>
 					<!-- Single Footer -->
-					
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Entre Em Contato</h4>
-							<p>Av Carneiro Fontoura 276, Passo D'Areia <br />
-							+55 (51) 3341.5066 <br />
-							atendimento@wlportasautomaticas.com.br <br />
-							(01) 800 854 633</p>
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Inscreva-se</h4>
-							<p>Digite seu endereço de e-mail para assinar nossas Newsletters mensais</p>
-							
-							<form action="">
-								<div class="form-group">
-									<input type="email" class="form-control my-form" id="exampleInputEmail1" placeholder="Digite seu e-mail">
-								</div>
-								<div class="form-group">
-									<button class="btn btn-subscribe">Inscreva-se</button>
-								</div>
-							</form>
-							
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
-					<!-- Single Footer -->
-					<div class="col-sm-3">
-						<div class="single-footer">
-							<h4>Projetos Recentes</h4>
-							<ul class="projects">
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-								<li><img src="img/project.png" alt="Reccent Project" /></li>
-							</ul>
-						</div>
-					</div>
-					<!-- Single Footer -->
-					
+			
 				</div>
 			</div>
 			
@@ -238,27 +266,6 @@
 						<div class="col-sm-4">
 							<div class="copy-text">
 								<p>All Rights Reserved | Copyright 2020 © Alfa Software</p>
-							</div>
-						</div>
-						<div class="col-sm-5">
-							<div class="footer-menu pull-right">
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">Empresa</a></li>
-									<li><a href="product.html">Produtos</a></li>
-									<li><a href="index.html#feature-work">Portfólio</a></li>
-									<li><a href="contact.html">Contato</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
 							</div>
 						</div>
 					</div>
